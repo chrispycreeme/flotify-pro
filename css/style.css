@@ -1,0 +1,96 @@
+body {
+    margin: 0 0 0 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+    background-color: rebeccapurple;
+}
+
+.background {
+    background-image: url(/img/background-home.png);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    filter: blur(2.5px);
+    -webkit-filter: blur(2.5px);
+    z-index: 0;
+}
+
+.contentainer {
+    z-index: 1;
+    height: 7rem;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+nav {
+    z-index: 2;
+    height: 7rem;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+}
+
+nav img {
+    height: 120px;
+    width: auto;
+}
+
+nav ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    justify-content: right;
+    margin-right: 4em;
+    width: 100%;
+}
+
+nav ul li {
+    margin-right: 0.7rem;
+    padding: 10px 45px 10px 45px;
+    border-radius: 35px;
+    transition: 200ms ease-in-out;
+}
+
+nav ul li:nth-child(3) {
+    margin-right: 0px;
+}
+
+nav ul li:hover a {
+    text-align: center;
+    color: #009688;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(32, 32, 32);
+    font-weight: 500;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    display: inline-block;
+    transition: 200ms ease-in-out;
+}
+
+.contentainer {
+    display: flex;
+}
+
+.logo-cont {
+    margin-top: 9rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+p.title {
+    display: inline-block;
+    margin-bottom: 10px;
+}
