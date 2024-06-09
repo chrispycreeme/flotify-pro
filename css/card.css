@@ -1,0 +1,135 @@
+body {
+    font-family: "Inter", sans-serif;
+}
+
+.card-info {
+    width: 365px;
+    height: 460px;
+    background-color: #202020;
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+.top-card-content {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+p.title-location,
+p.location-approximate {
+    font-weight: 500;
+    font-style: italic;
+}
+
+p.title-location {
+    color: #B6B6B6;
+    font-size: 13px;
+    margin-bottom: 0px;
+}
+
+p.location-approximate {
+    color: #FFFFFF;
+    font-size: 15px;
+    margin-top: 3px;
+    margin-bottom: 15px;
+}
+
+h1.status-heading {
+    font-weight: 500;
+    color: #FFFFFF;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    margin: 5px;
+}
+
+.icon-wrapper {
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+    margin-left: -5px;
+}
+
+h1.status-value {
+    color: #009688;
+    font-size: 18px;
+    margin: 5px;
+    font-weight: 500;
+}
+
+table {
+    width: 300px;
+    border-collapse: collapse;
+}
+
+.rain-intensity-section {
+    height: 110px;
+    background-color: #303030;
+    margin-top: 13px;
+}
+
+.flood-level-section {
+    background-color: #373737;
+}
+
+.rain-intensity-section,
+.flood-level-section {
+    width: 365px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rain-text-cont,
+.flood-level-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.rain-text-cont {
+    margin-left: 30px;
+    margin-top: 26px;
+}
+
+.rain-stat-text,
+.rain-stat-auto {
+    margin: 0;
+    padding: 0;
+}
+
+p.rain-stat-text {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.rain-stat-auto {
+    color: #009688;
+}
+
+.flood-level-text {
+    margin-left: 30px;
+    margin-top: 23px;
+}
+
+.flood-stat-text,
+.flood-meter-auto,
+.flood-stat-auto {
+    margin: 0;
+}
+
+.flood-stat-text {
+    color: #FFFFFF;
+}
+
+.flood-stat-auto {
+    color: #009688;
+}
+
+.flood-meter-auto {
+    font-size: 15px;
+    font-style: italic;
+    color: #009688;
+}
